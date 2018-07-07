@@ -35,6 +35,7 @@ gulp.task('build', () => {
   , "rootDir": "./src"
   , "noImplicitAny": false
   , "baseUrl": "./src"
+  , "module": "commonjs"
   , "paths": {
       "@app/env": [
         "environments/environment"
@@ -51,4 +52,4 @@ gulp.task('build', () => {
 
 ```
 
-Note: Don't forget to add rootDir option
+Note: Don't forget to add `rootDir` option
